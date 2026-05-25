@@ -19,5 +19,15 @@ Monitor pipeline quality,
 Handle errors and dependencies and 
 with much less code.
 
+Real-World Example
 
+Suppose a company receives raw sales data every day.
+
+Using DLT:
+
+Raw data comes into a Bronze table           
+Cleaned data goes to a Silver table                     
+Final analytics-ready data goes to a Gold table     
+
+This follows the Medallion Architecture in Databricks.
 
