@@ -44,3 +44,14 @@ Delta Lake
 Apache Spark                         
 Databricks Delta Live Tables (DLT)
 
+#Architecture Flow
+
+Data Sources             
+     ↓                         
+ Bronze Layer           
+     ↓                          
+ Silver Layer                 
+     ↓                      
+ Gold Layer              
+     ↓                      
+BI / ML / Analytics
