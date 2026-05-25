@@ -30,4 +30,17 @@ Cleaned data goes to a Silver table
 Final analytics-ready data goes to a Gold table     
 
 This follows the Medallion Architecture in Databricks.
+Medallion Architecture is a recommended data design pattern used in the Lakehouse architecture to organize data into multiple layers based on quality and processing stage.
+
+It mainly consists of:
+
+Bronze Layer → Raw data                  
+Silver Layer → Cleaned and transformed data                   
+Gold Layer → Business-ready data              
+
+This architecture helps build scalable and reliable data pipelines using technologies like:
+
+Delta Lake                 
+Apache Spark                         
+Databricks Delta Live Tables (DLT)
 
