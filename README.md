@@ -58,5 +58,5 @@ BI / ML / Analytics
 
 ![expectations flow](./assets/expectations-flow.png)
 
-![sample image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx-SfzikhR2Xc7K_zwJEPObbGJ9TxD68OcwA&s)
+
 
