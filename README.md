@@ -63,6 +63,8 @@ Built-in DLT supports something called Expectations – where you can define rul
 ### AUTOMATIC DEPENDENCY MANAGEMENT                 
 You don’t need to worry about the order of transformations. Just define your tables and DLT figures out which table depends on which and runs things in the correct order.
 
+### INCREMENTAL PROCESSING
+DLT is smart – it only processes new or changed data using something called Change Data Capture (CDC).
 
 
 ![expectations flow](./assets/expectations-flow.png)
