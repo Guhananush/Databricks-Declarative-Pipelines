@@ -66,6 +66,9 @@ You don’t need to worry about the order of transformations. Just define your t
 ### INCREMENTAL PROCESSING
 DLT is smart – it only processes new or changed data using something called Change Data Capture (CDC).
 
+### UNIFIED BATCH AND STREAMING
+Normally, batch and streaming pipelines are built and maintained separately. But with DLT, you can use the same code for both. It detects whether your data source is streaming and handles it accordingly.
+
 
 ![expectations flow](./assets/expectations-flow.png)
 
