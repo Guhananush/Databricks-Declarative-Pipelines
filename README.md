@@ -1,5 +1,5 @@
 # Databricks-Declarative-Pipelines
-Implementation of Medallion Architecture (Bronze, Silver, Gold layers) using Databricks, PySpark, and Delta Lake for scalable data engineering pipelines.
+Implementation of Medallion Architecture (Bronze, Silver, Gold layers) using Databricks, PySpark, and Delta Lake for scalable data engineering pipelines.You just declare what you want – and DLT takes care of how it should be done.
 
 So, what is Databricks-Declarative-Pipelines means:
 You describe what data transformation you want, and Databricks automatically handles how the pipeline runs.
@@ -54,7 +54,16 @@ Data Sources
      ↓                      
  Gold Layer              
      ↓                      
-BI / ML / Analytics
+BI / ML / Analytics         
+
+# BENEFITS
+
+Built-in DLT supports something called Expectations – where you can define rules (like "this column should never be null"). If a record breaks the rule, DLT will drop it or send it to quarantine – and you don’t have to write extra code to handle it. Data Quality Check.
+
+### AUTOMATIC DEPENDENCY MANAGEMENT                 
+You don’t need to worry about the order of transformations. Just define your tables and DLT figures out which table depends on which and runs things in the correct order.
+
+
 
 ![expectations flow](./assets/expectations-flow.png)
 
