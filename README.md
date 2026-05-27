@@ -92,6 +92,7 @@ Schedule workflows
 Debug and test pipelines                
 Manage production data engineering tasks          
 
+### Lakeflow Code Editor = a coding workspace in Databricks where data engineers write and manage pipeline code for data processing.
 
       
 
