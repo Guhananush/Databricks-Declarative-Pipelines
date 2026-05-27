@@ -78,7 +78,18 @@ It is mainly used for creating:
 ETL pipelines                       
 Streaming pipelines                                        
 Batch workflows                               
-Declarative Pipelines (DLT)                                    
+Declarative Pipelines (DLT)          
+
+Using languages like:                
+   Python             
+   SQL 
+   
+### What it does?Lakeflow Code Editor allows developers to:
+
+Write pipeline logic                 
+Define tables and transformations             
+Schedule workflows                  
+
 
 
       
