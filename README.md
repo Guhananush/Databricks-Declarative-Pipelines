@@ -89,7 +89,8 @@ Using languages like:
 Write pipeline logic                 
 Define tables and transformations             
 Schedule workflows                  
-
+Debug and test pipelines                
+Manage production data engineering tasks          
 
 
       
