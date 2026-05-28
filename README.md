@@ -94,9 +94,14 @@ Manage production data engineering tasks
 
 ### Lakeflow Code Editor = a coding workspace in Databricks where data engineers write and manage pipeline code for data processing.
 
+<img width="777" height="292" alt="image" src="https://github.com/user-attachments/assets/8494ce4e-1316-4f79-9a23-cb89ea3969cc" />
+
       
 
 ![expectations flow](./assets/expectations-flow.png)
+
+
+
 
 
 
