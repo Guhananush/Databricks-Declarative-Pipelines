@@ -125,7 +125,11 @@ A Streaming Table continuously processes new incoming data in real time or near 
 ### Main Idea:         
 Reads only newly arrived records               
 Updates automatically                  
-Used for live pipelines                           
+Used for live pipelines     
+
+## How It Works
+
+New data arrives → system processes only the new rows → table updates continuously.
 
       
 
