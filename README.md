@@ -114,7 +114,18 @@ Process it together in one job
 
 Example:                 
 Sales data processed every night at 12 AM               
-Daily attendance report            
+Daily attendance report     
+
+# Streaming Table
+
+A Streaming Table continuously processes new incoming data in real time or near real time.
+
+ ##### It works incrementally.
+
+### Main Idea:         
+Reads only newly arrived records               
+Updates automatically                  
+Used for live pipelines                           
 
       
 
