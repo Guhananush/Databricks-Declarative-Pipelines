@@ -96,6 +96,25 @@ Manage production data engineering tasks
 
 <img width="777" height="292" alt="image" src="https://github.com/user-attachments/assets/8494ce4e-1316-4f79-9a23-cb89ea3969cc" />
 
+Batch View refers to a view or dataset created using batch processing.
+
+That means:
+
+Data is processed at fixed intervals
+Entire chunks of data are handled together
+Not continuous like streaming
+What is Batch Processing?
+
+Batch processing means:
+
+Collect data for some time
+Process it together in one job
+
+Example:
+
+Sales data processed every night at 12 AM
+Daily attendance report
+
       
 
 ![expectations flow](./assets/expectations-flow.png)
