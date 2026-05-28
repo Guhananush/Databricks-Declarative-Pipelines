@@ -103,8 +103,9 @@ That means:
 
 Data is processed at fixed intervals                   
 Entire chunks of data are handled together                  
-Not continuous like streaming                     
-What is Batch Processing?                      
+Not continuous like streaming   
+
+## What is Batch Processing?                      
 
 Batch processing means:
 
