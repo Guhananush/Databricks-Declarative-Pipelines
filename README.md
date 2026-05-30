@@ -134,6 +134,13 @@ New data arrives → system processes only the new rows → table updates contin
 # Append Flow API
 It is used to continuously add (append) new records from a source into a target streaming table without modifying or deleting existing records.
 
+## Simple Meaning
+
+### Think of it like a logbook:
+
+Existing data stays as it is.
+New incoming data is added to the end.
+Old records are not updated or removed.
 
       
 
