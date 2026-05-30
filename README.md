@@ -129,7 +129,10 @@ Used for live pipelines
 
 ## How It Works
 
-New data arrives → system processes only the new rows → table updates continuously.
+New data arrives → system processes only the new rows → table updates continuously
+
+# Append Flow API
+
 
       
 
