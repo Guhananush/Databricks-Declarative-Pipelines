@@ -147,7 +147,9 @@ Ingest streaming data
 Process event logs            
 Collect sensor/IoT data                   
 Store clickstream data                 
-Build Bronze layer tables in the Medallion Architecture                        
+Build Bronze layer tables in the Medallion Architecture        
+
+#### Append Flow API = a Lakeflow API that continuously writes new incoming data to a target table by adding rows only, without changing existing data.
 
       
 
