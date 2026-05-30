@@ -142,6 +142,13 @@ Existing data stays as it is.
 New incoming data is added to the end.
 Old records are not updated or removed.
 
+Why Use Append Flow?
+Ingest streaming data          
+Process event logs            
+Collect sensor/IoT data            
+Store clickstream data
+Build Bronze layer tables in the Medallion Architecture
+
       
 
 ![expectations flow](./assets/expectations-flow.png)
