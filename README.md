@@ -142,7 +142,7 @@ Existing data stays as it is.
 New incoming data is added to the end.
 Old records are not updated or removed.
 
-Why Use Append Flow?
+Why Use Append Flow?                   
 Ingest streaming data          
 Process event logs            
 Collect sensor/IoT data                   
