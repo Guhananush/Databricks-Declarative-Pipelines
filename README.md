@@ -161,7 +161,11 @@ Use expectations to apply quality constraints that validate data as it flows thr
 
 This article has an overview of expectations, including syntax examples and behavior options. For more advanced use cases and recommended best practices, see Expectation recommendations and advanced patterns.
 
-# What are expectations?
+# What are expectations?   
+
+Expectations are optional clauses in pipeline materialized view, streaming table, or view creation statements that apply data quality checks on each record passing through a query. Expectations use standard SQL Boolean statements to specify constraints. You can combine multiple expectations for a single dataset and set expectations across all dataset declarations in a pipeline.
+
+
 
 
 
