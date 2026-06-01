@@ -151,6 +151,8 @@ Build Bronze layer tables in the Medallion Architecture
 
 #### Append Flow API = a Lakeflow API that continuously writes new incoming data to a target table by adding rows only, without changing existing data.
 
+# Data Quality Checks with Expectation          
+
       
 
 ![expectations flow](./assets/expectations-flow.png)
