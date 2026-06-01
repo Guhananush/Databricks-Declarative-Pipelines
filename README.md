@@ -161,6 +161,8 @@ Use expectations to apply quality constraints that validate data as it flows thr
 
 This article has an overview of expectations, including syntax examples and behavior options. For more advanced use cases and recommended best practices, see Expectation recommendations and advanced patterns.
 
+# What are expectations?
+
 
 
 
