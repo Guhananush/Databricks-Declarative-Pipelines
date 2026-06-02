@@ -190,7 +190,9 @@ dp.create_auto_cdc_flow(
   once = <bool>                             
 )                                   
                  
-For create_auto_cdc_flow processing, the default behavior for INSERT and UPDATE events is to upsert CDC events from the source: update any rows in the target table that match the specified key(s) or insert a new row when a matching record does not exist in the target table. Handling for DELETE events can be specified with the apply_as_deletes parameter.
+For create_auto_cdc_flow processing, the default behavior for INSERT and UPDATE events is to upsert CDC events from the source: update any rows in the target table that match the specified key(s) or insert a new row when a matching record does not exist in the target table. Handling for DELETE events can be specified with the apply_as_deletes parameter.                      
+
+To learn more about CDC processing with a change feed, see The AUTO CDC APIs: Simplify change data capture with pipelines. For an example of using the create_auto_cdc_flow() function, see AUTO CDC examples.
 
 
 
