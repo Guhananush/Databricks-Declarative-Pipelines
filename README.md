@@ -167,6 +167,8 @@ Expectations are optional clauses in pipeline materialized view, streaming table
 
 # create_auto_cdc_flow
 
+The create_auto_cdc_flow() function creates a flow that uses Lakeflow Spark Declarative Pipelines change data capture (CDC) functionality to process source data from a change data feed (CDF).
+
 
 
 
