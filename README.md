@@ -169,6 +169,26 @@ Expectations are optional clauses in pipeline materialized view, streaming table
 
 The create_auto_cdc_flow() function creates a flow that uses Lakeflow Spark Declarative Pipelines change data capture (CDC) functionality to process source data from a change data feed (CDF).
 
+## Syntax
+
+from pyspark import pipelines as dp
+
+dp.create_auto_cdc_flow(                
+  target = "<target-table>",                           
+  source = "<data-source>",                    
+  keys = ["key1", "key2", "keyN"],                        
+  sequence_by = "<sequence-column>",                            
+  ignore_null_updates = <bool>,                             
+  apply_as_deletes = None,                          
+  apply_as_truncates = None,                        
+  column_list = None,
+  except_column_list = None,
+  stored_as_scd_type = <type>,
+  track_history_column_list = None,
+  track_history_except_column_list = None,
+  name = None,
+  once = <bool>
+)
 
 
 
