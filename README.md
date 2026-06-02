@@ -165,6 +165,8 @@ This article has an overview of expectations, including syntax examples and beha
 
 Expectations are optional clauses in pipeline materialized view, streaming table, or view creation statements that apply data quality checks on each record passing through a query. Expectations use standard SQL Boolean statements to specify constraints. You can combine multiple expectations for a single dataset and set expectations across all dataset declarations in a pipeline.
 
+# create_auto_cdc_flow
+
 
 
 
