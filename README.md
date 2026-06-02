@@ -181,14 +181,14 @@ dp.create_auto_cdc_flow(
   ignore_null_updates = <bool>,                             
   apply_as_deletes = None,                          
   apply_as_truncates = None,                        
-  column_list = None,
-  except_column_list = None,
-  stored_as_scd_type = <type>,
-  track_history_column_list = None,
-  track_history_except_column_list = None,
-  name = None,
-  once = <bool>
-)
+  column_list = None,                                   
+  except_column_list = None,                                 
+  stored_as_scd_type = <type>,                                
+  track_history_column_list = None,                                
+  track_history_except_column_list = None,                            
+  name = None,                        
+  once = <bool>                             
+)                                   
 
 
 
