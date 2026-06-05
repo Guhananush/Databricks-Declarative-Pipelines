@@ -1,1 +1,15 @@
+    sales_id INT PRIMARY KEY,
+    customer_id INT,
+    product_id INT,
+    quantity INT,
+    amount DECIMAL(10,2),
+    sale_timestamp TIMESTAMP
+);
 
+# Insert 1 (Initial Load)
+INSERT INTO sales_east VALUES
+(1, 101, 201, 2, 200.00, '2025-08-01 10:00:00'),
+(2, 102, 202, 1, 120.00, '2025-08-01 10:05:00'),
+(3, 103, 203, 5, 500.00, '2025-08-01 10:10:00'),
+(4, 104, 204, 3, 330.00, '2025-08-01 10:15:00'),
+(5, 105, 205, 4, 440.00, '2025-08-01 10:20:00');
