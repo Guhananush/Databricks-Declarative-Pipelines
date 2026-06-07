@@ -210,8 +210,10 @@ Suppose a customer table contains:
 
 Later, the customer moves to Mumbai:
 
-Customer_ID	Name	City
-101	Anush	Mumbai
+| Customer_ID | Name  | City   |
+| ----------- | ----- | ------ |
+| 101         | Anush | Mumbai |
+
 
 The question is: Should we overwrite Delhi or keep the history?
 
