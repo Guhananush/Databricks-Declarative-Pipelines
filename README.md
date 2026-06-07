@@ -200,6 +200,24 @@ It is used to track changes in dimension data (such as customer, employee, produ
 
 A dimension contains descriptive information. Sometimes these values change, but not very often—hence the name Slowly Changing Dimension.
 
+Example
+
+Suppose a customer table contains:   
+
+| Customer_ID | Name  | City  |
+| ----------- | ----- | ----- |
+| 101         | Anush | Delhi |
+
+Later, the customer moves to Mumbai:
+
+Customer_ID	Name	City
+101	Anush	Mumbai
+
+The question is: Should we overwrite Delhi or keep the history?
+
+This is where SCD types come in.
+
+
 
 
 
