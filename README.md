@@ -219,6 +219,26 @@ The question is: Should we overwrite Delhi or keep the history?
 
 This is where SCD types come in.
 
+SCD Type 1 (Overwrite)
+
+The old value is replaced with the new value.
+
+Before:
+
+| Customer_ID | Name  | City  |
+| ----------- | ----- | ----- |
+| 101         | Anush | Delhi |
+
+
+After:
+
+| Customer_ID | Name  | City   |
+| ----------- | ----- | ------ |
+| 101         | Anush | Mumbai |
+
+
+✅ Simple and uses less storage
+❌ History is lost
 
 
 
