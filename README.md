@@ -253,6 +253,7 @@ The old record is kept, and a new record is added.
 ✅ Complete history is preserved
 ❌ Requires more storage
 
+Databricks provides built-in support for SCD, especially Type 1 and Type 2, making it easy to manage changing records in Delta tables.
 
 
 
