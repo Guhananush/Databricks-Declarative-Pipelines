@@ -198,6 +198,8 @@ To learn more about CDC processing with a change feed, see The AUTO CDC APIs: Si
 # Slowly Changing Dimensions (SCD)
 It is used to track changes in dimension data (such as customer, employee, product, or supplier information) over time.
 
+A dimension contains descriptive information. Sometimes these values change, but not very often—hence the name Slowly Changing Dimension.
+
 
 
 
