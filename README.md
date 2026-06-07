@@ -195,6 +195,8 @@ For create_auto_cdc_flow processing, the default behavior for INSERT and UPDATE 
 
 To learn more about CDC processing with a change feed, see The AUTO CDC APIs: Simplify change data capture with pipelines. For an example of using the create_auto_cdc_flow() function, see AUTO CDC examples.
 
+# Slowly Changing Dimensions (SCD)
+
 
 
 
