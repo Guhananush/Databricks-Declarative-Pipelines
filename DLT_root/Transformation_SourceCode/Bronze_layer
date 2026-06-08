@@ -15,3 +15,24 @@ def coustomers_stg():
 
     df = spark.readStream.table("ddlt.source.customers")
     return df
+
+----------------------------------------------------
+
+import dlt
+
+#Products Expections
+products_rule = {
+    "rule_1" : "product_id IS NOT NULL",
+    "rule_2" : "price >= 0"
+}
+
+# Ingesting product
+@dlt.table(
+    name = "product_stg"
+)
+@dlt.expect_all_or_drop(products_rule)
+def product_stg():
+
+    df = spark.readStream.table("ddlt.source.products")
+    return df
+
