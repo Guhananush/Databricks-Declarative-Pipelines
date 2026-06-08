@@ -1,4 +1,4 @@
-Save as # ingestion_coustomer.py 
+Save as #ingestion_coustomer.py 
 import dlt
 
 #Coustomers Expections
@@ -18,7 +18,7 @@ def coustomers_stg():
     return df
 
 ----------------------------------------------------
-Save as # ingestion_product.py 
+Save as #ingestion_product.py 
 import dlt
 
 #Products Expections
