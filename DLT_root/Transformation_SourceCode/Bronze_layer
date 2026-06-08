@@ -36,3 +36,31 @@ def product_stg():
     df = spark.readStream.table("ddlt.source.products")
     return df
 
+-----------------------------------------------
+
+import dlt
+
+sales_rules = {
+    "rules_1" : "sales_id IS NOT NULL" 
+}
+
+#Empty Streming table
+dlt.create_streaming_table(
+    name = "sales_stg",
+    expect_all_or_drop=sales_rules
+)
+#creating East Sales Flow
+@dlt.append_flow(target="sales_stg")
+
+def east_sales():
+    df = spark.readStream.table("ddlt.source.sales_east")
+    return df
+
+#creating west Sales Flow
+@dlt.append_flow(target="sales_stg")
+
+def west_sales():
+    df = spark.readStream.table("ddlt.source.sales_west")
+    return df
+
+
