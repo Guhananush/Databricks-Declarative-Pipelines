@@ -1,1 +1,17 @@
+import dlt
 
+#Coustomers Expections
+coustomers_rule = {
+    "rule_1" : "customer_id IS NOT NULL",
+    "rule_2" : "customer_name IS NOT NULL "
+}
+
+# Ingesting coustomers
+@dlt.table(
+    name = "coustomers_stg"
+)
+@dlt.expect_all_or_drop(coustomers_rule)
+def coustomers_stg():
+
+    df = spark.readStream.table("ddlt.source.customers")
+    return df
