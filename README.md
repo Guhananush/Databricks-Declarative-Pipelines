@@ -256,6 +256,11 @@ The old record is kept, and a new record is added.
 Databricks provides built-in support for SCD, especially Type 1 and Type 2, making it easy to manage changing records in Delta tables.
 
 
+# Final Pipline 
+<img width="1105" height="343" alt="image" src="https://github.com/user-attachments/assets/5d100a5b-7077-4c15-9754-884b17c66e60" />
+
+
+
 
 
 
