@@ -49,6 +49,7 @@ dlt.create_auto_cdc_flow(
 )
 
 -----------------------------------------------------------------
+# dim_products.py
 import dlt
 
 #Creating Empty Streaming Table
