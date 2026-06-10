@@ -257,7 +257,9 @@ Databricks provides built-in support for SCD, especially Type 1 and Type 2, maki
 
 
 # Final Pipline 
-<img width="1105" height="343" alt="image" src="https://github.com/user-attachments/assets/5d100a5b-7077-4c15-9754-884b17c66e60" />
+<img width="1179" height="625" alt="image" src="https://github.com/user-attachments/assets/1f344845-ec68-4fd4-a3a6-29d6c654f056" />
+
+
 
 
 
