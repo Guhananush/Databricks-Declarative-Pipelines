@@ -74,6 +74,7 @@ dlt.create_auto_cdc_flow(
 )
 
 ---------------------------------------------------------------------
+fact_sales_py
 import dlt
 
 #Creating Empty Streaming Table
